@@ -1,5 +1,7 @@
 # Just Kidding
 
+![LibrePager Logo](../images/LibrePager_Logo 3-5-2022.png "LOGO")
+
 This is a test page typed by **CHARLIE** just to see how Dillinger, *the Online Markdown Language Text Editor*, works.
 
 - I like it so far
