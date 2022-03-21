@@ -1,0 +1,114 @@
+---
+layout: page
+title: Design Milestones
+description: A modern pager that belongs to nobody but you.
+background: '/img/LP_Logo_3.png'
+---
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Design Milestones</title>
+<style>
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: darkgoldenrod;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+</style>
+</head>
+<body>
+<h1> Librepager Design Milestones</h1>
+<h3> This page is an outline of the steps necessary to make the LibrePager a reality. The purpose is to keep the overall goals of the project in sight, while documenting progress to date. It is a living document, always being extended and improved. Milestones will be 
+	described, sometimes in little detail at a high level. As the work progresses, details will be fleshed out, links to pages documenting 
+	the technology will be added and, with some satisfaction, completion dates will be filled in.</h3>
+
+<p>LibrePager (LP) is a concept for a handheld text-messaging device that will directly with 
+	other LP devices forming self organizing peer to peer mesh network to extend range. 
+	Rooftop repeaters, internet gateways and patching into the SMS text message network is 
+	envisions.  The goal is a system of Librepagers for daily use supplementing or replacing 
+	smartphones for normal communication between persons. </p>
+
+<p>LibrePager are <a href="https://meshtastic.org"  >Meshtastic</a> Transceivers, with a few extensions to 
+make them practical replacements for texting on a smart phone. Hopefully, LP technology will 
+always be compatible with Meshtastic technology. </p>
+
+<ol><!--1.-->
+<li> <b>Build Meshtastic Transceivers (MTs) using current Meshtastic technology.</b> (completed xx/xx/xxxx) Currently, MT devices are bluetooth connected dongles providing their Android or Apple hosts with radio links. Many important funcitons such as display and address books are handled in the hosts. 
+	<ul>
+	<li>obtain commercially available dev boards, such as  
+		<a href="https://meshtastic.org/docs/hardware/supported/heltec"> Heltec LoRa 32 V2</a>,  
+		and a pile of android phones and tablets to use as host. 
+	</li>
+	<li>
+		load Meshtastic by flashing the dev boards with pre-compiled binary 
+		<a href="https://meshtastic.org/docs/getting-started/flashing-firmware">firmware.</a>  and with binary images <a href="https://github.com/meshtastic/Meshtastic-device">
+
+	compiled from source code</a>.    
+	</li>
+	<li>
+	load Meshtastic apps now available from <a href="https://play.google.com/store/search?q=meshtastic%20android">
+		Google Playstore</a> onto the Android host device. 
+	</li>    
+	</ul>
+</li>
+	<!--2.-->
+<li> <b>Build a standalone Meshtastic Transceiver</b> (in progess):
+<ul>
+	<li>
+	build touchscreen testbeds (TS_Testbed) (future link) which drive touchscreens with dev boards running Meshtastic software. (x/x/xx). 
+	</li>
+	<li>design IOT-Terminal project to demo a prototype User Interface (UI) on the TS_Testbeds in hardware and in a simulator.  
+	</li>
+	<li>Design and build a prototype standalone MT hardware using a touchscreen and a dev board(s) which support LORA and does not require separate FCC certification. 
+	</li>
+	<li>Design software for MT standalone prototype joining IOT-Terminal User Interface, Meshtastic RF code and replacing all functions now accompished in host Android and Apple hosts.
+	</li>
+</ul>
+</li>
+	<!--3.-->
+	
+<li> <b>Build Prototype Meshtastic Repeaters to extend range of MTs mesh networks.</b> 
+	This technology is currently under development with Meshtastic. Use dev board(s) which support LORA and do not require separate FCC certification.
+</li>
+	<!--4.-->
+<li> <b> Build Prototype Librepager Internet Gateways</b>. This is the first place where LibrePager devices will depart from and extend Meshtastic technology. 
+	<ul>
+	<li> Prototypes will use dev board(s) which support LORA and do not require separate FCC certification. They will likely be similar to the Prototype Meshtastic Repeaters above</li>
+	<li>An LP_Internet Gateway will be a Meshtastic repeater with extensions to allow MT devices with LP extensions to link into the Internet. Connection to host computers inside buildings may be by wifi or ethernet. Many applications are possible. </li>
+	<li><b>LP2LP-</b> An early app will allow LP devices in a local cluster to communicate with an LP device attached to a different LP_Internet_Gateway in a remote cluster. An addressing scheme, 
+	perhaps where LP-Internet Gateways generate ip6 addresses and lease them to the LPs, will be necessary.</li>
+	<li> <b>LP2SMS-</b> An LibrePager to SMS Text message network patch is another target application of the LP_Internet_Gateway. Using the <a href="https://signal.org/en/">Signal</a> communications app, a <a href=
+		"https://github.com/isamert/scli">command line interface</a> (CLI), 
+	 a patch into the telephone network's SMS texting systems willbe created.
+    </li>		
+	</ul>
+	<!--5.-->
+   <li>
+	
+	<b>Build a single board Standalone Meshtastic Tranceiver  (SMT) suitable for Librepager Service.</b> An optimized single board mcu will be designed for this handheld unit that must be suitable for daily carry. 
+	<ul>
+	<li>Design and test PCBs for single board SMTs.</li>
+	<li>Design and run software on previous generation of prototype hardware.</li>
+	<li> <b>Perform FCC Testing and Certification</b> if necessary.  Crowd funding may be used to pay for this service and to fund the first run of LibrePager devices for commercial sale.</li>
+	<li>With careful planning, the same optimize tranceiver board which would be FCC tested and certified for handheld SMT could also be used for a series of improved repeaters and internet gateways</li>
+	</ul> 
+	</ol>
+</body>
+	
+	
