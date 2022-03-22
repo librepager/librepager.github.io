@@ -24,7 +24,7 @@ Connection to the SMS telephone network will use the [Signal](https://signal.org
 
 Right now there a only one principal developer devoting time every week to LibrePager, although several others have made significant hardware and software contributions.   If you would like to donate your time and skills to the effort, it would be appreciated. 
 
-I apologize for using the pseudonyms Mongo@LibrePager.com  and Info@LibrePager.com to maintain anonymity, but it is a practical necessity of life on the Internet.  If we do business, I look forward to getting to know you personally. 
+I apologize for using the pseudonyms *Mongo* and *Info* to maintain anonymity, but it is a practical necessity of life on the Internet.  If we do business, I look forward to getting to know you personally. 
 
 # What will success look like 
 
