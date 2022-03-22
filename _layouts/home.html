@@ -28,6 +28,11 @@ layout: default
       <div class="col-lg-8 col-md-10 mx-auto">
 
         {{ content }}
+        <!-- added content above the links to posts-->
+        <h4>click <a href = "milestones.html">
+          <span style="color: blue">MILESTONES</span>
+          </a> for a project outline</h4>
+          
 
         <!-- Home Post List -->
         {% for post in site.posts limit : 2 %}
