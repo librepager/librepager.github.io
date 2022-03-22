@@ -1,5 +1,7 @@
-<!-- this page was copied from https://formspree.io/guides/jekyll/  
-  on 3-21-2022-->
+<!-- this page was copied from https://formspree.io/guides/jekyll/  on 3-21-2022
+this is the form's endpoint: https://formspree.io/f/moqrlbbj for info.librepager.com 
+and : https://formspree.io/f/mgedzkdg for cfspindler@gmail.com 
+  -->
   <!--
 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" 
       action="https://formspree.io/f/mgedzkdg" method="post">
@@ -25,15 +27,17 @@
 
 <form action="https://formspree.io/f/moqrlbbj" method="POST">
 
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
+  <label for="name"> Your name:  </label> <br>
+  <input type="text" id="name" name="name"><br>
+  
+  <label for="mail"> Your email address: </label><br>
+  <input type="email" id="mail" name="email"><br>
+  
 
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
+  <label for="msg"> Your message:</label><br>
+    <textarea name="message" id="msg" 
+    rows="10" cols="40"></textarea><br>
+  
 
   <button type="submit">Send</button>
 </form>
