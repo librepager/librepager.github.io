@@ -2,7 +2,7 @@
 layout: page
 title: LibrePager
 description: A modern pager that belongs to nobody but you.
-background: '/img/TS_Tb_1.jpg'
+background: '/img/IMG_1511.JPG'
 
 ---
 
@@ -10,16 +10,17 @@ background: '/img/TS_Tb_1.jpg'
 
 The Touchscreen Testbed (TS_testbed) is a soldered breadboard designed to connect commercially available touchscreen dev boards to the target mcu dev board, the ESP32 Devkit V1 to test software. 
 
-![touchscreen testbed](/img/TS_Tb_1.JPG "touchscreen testbed")Touchscreen Testbed
 
 
-<img src="/img/TS_Tb_1.JPG" width=300 align=right>this is the right pic
-<img src="/img/TS_Tb_1.JPG" width=300 align=left>this is the left pic
+
+<img src="/img/cb_450px.png" width=300 align=right>
+<img src="/img/TS_Tb_fritzing.png" width=300 align=left><br>
+
 
 # How Will it work
 
-LibrePagers will be specialized [Meshtastic](https://meshtastic.org/docs/about) Radio devices with software extensions to make using Internet Gateways practical. Meshtastic radios are developed technology and are available now. They use LoRa radio protocols which have exceptionally good range and that use radio bands which don't require operator and station licenses in most places.  The chief difference between Meshtastic and Librepager is that Meshtastic is intended to be used by outdoor enthusiasts like backpackers and paragliders, while LibrePager is for daily carry to supplement or replace cell phones for text messaging. 
+Above, right, is a photo of the bare TS_Testbed breadboard with wired sockets for an ESP32 Devkit V1 (30 pin) on top right, a wired socket for a 2.8" TFT SPI 240 x 320 ILI9341 touchscreen on bottom left, a 2x5 pin block for connection to Espressif ESP-Prog JTAG debugging hardware on bottom right and a unwired socket (to mechanically brace the touchscreen) on top left
 
-Connection to the SMS telephone network will use the [Signal](https://signal.org/en/) App's command line interface. Peer to peer connections between LibrePagers thru Internet Bridges should be easier than that, but is yet to be designed. 
+Above, left, is a Fritzing Wiring Diagram for the Touchscreen Testbed (TS_Testbed)
 
-l.  
+Here is a link to the LibrePager  [ESP32_Graphic_Testbed](https://github.com/librepager/ESP32_Graphic_Testbed) Code Repository.  This code was generated using Visual Code Studio with PlatformIO, to load test device.
