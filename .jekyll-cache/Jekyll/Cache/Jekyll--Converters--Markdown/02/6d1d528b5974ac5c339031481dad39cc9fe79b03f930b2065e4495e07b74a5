@@ -1,10 +1,9 @@
-I"[
-<h1 id="touchscreen-testbed">Touchscreen Testbed</h1>
+I"c<h1 id="touchscreen-testbed">Touchscreen Testbed</h1>
 
 <p>The Touchscreen Testbed (TS_testbed) is a soldered breadboard designed to connect commercially available touchscreen dev boards to the target mcu dev board, the ESP32 Devkit V1 to test software.</p>
 
-<p><img src="/img/pop_ts_tb_300.jpg" /><br />
-This is the Touchscreen Testbed populated with a ILI9341 resistive touchscreen and a ESP32 Devkit V1 (30 pin) dev board, ready to plug into your computer with a usb cable to download code and/or to power for testing.<br /></p>
+<p>&lt;img src=”/img/pop_ts_tb_300.jpg”  width: 90%  &gt;<br />
+This is the Touchscreen Testbed populated with a ILI9341 resistive touchscreen and a ESP32 Devkit V1 (30 pin) dev board, ready to plug into your computer with a usb cable to download code and/or to power for testing. Notice the 2x5 pin block below the dev board for connection to Espressif’s JTAG hardware debugging board, the <a href="https://docs.espressif.com/projects/espressif-esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html">Esp_Prog</a>.<br /></p>
 
 <p><img src="/img/cb_450px.png" width="300" /><br /> 
 Here’s the same soldered breadboard with the touchscreen and dev board removed.<br />
