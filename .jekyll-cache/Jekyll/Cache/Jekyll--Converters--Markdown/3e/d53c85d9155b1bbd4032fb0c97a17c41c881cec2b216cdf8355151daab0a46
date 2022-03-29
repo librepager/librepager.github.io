@@ -1,0 +1,17 @@
+I"Ω<h1 id="touchscreen-testbed">Touchscreen Testbed</h1>
+
+<p>The Touchscreen Testbed (TS_testbed) is a soldered breadboard designed to connect commercially available touchscreen dev boards to the target mcu dev board, the ESP32 Devkit V1 to test software.</p>
+
+<p><img src="/img/pop_ts_tb_300.jpg" align="center" /><br /></p>
+
+<p><img src="/img/cb_450px.png" width="300" align="right" />
+<img src="/img/TS_Tb_fritzing.png" width="300" align="left" /><br /></p>
+
+<h1 id="how-will-it-work">How Will it work</h1>
+
+<p>Above, right, is a photo of the bare TS_Testbed breadboard with wired sockets for an ESP32 Devkit V1 (30 pin) on top right, a wired socket for a 2.8‚Äù TFT SPI 240 x 320 ILI9341 touchscreen on bottom left, a 2x5 pin block for connection to Espressif ESP-Prog JTAG debugging hardware on bottom right and a unwired socket (to mechanically brace the touchscreen) on top left</p>
+
+<p>Above, left, is a Fritzing Wiring Diagram for the Touchscreen Testbed (TS_Testbed)</p>
+
+<p>Here is a link to the LibrePager  <a href="https://github.com/librepager/ESP32_Graphic_Testbed">ESP32_Graphic_Testbed</a> Code Repository.  This code was generated using Visual Code Studio with PlatformIO, to load test device.</p>
+:ET
